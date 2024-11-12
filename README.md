@@ -1,8 +1,12 @@
-I've updated the markdown to ensure the table of contents properly redirects to the respective sections. Here it is:
 
 # Glaucoma Detection with Deep Learning
 
+under guidance of agughasi victor [https://github.com/Victor-Ikechukwu](https://github.com/Victor-Ikechukwu)
+
+![Sample Eye Fundus Image](https://github.com/thilak-r/mini-project/blob/master/Screenshot%202024-11-12%20223137.png)
+
 This repository contains a PyTorch implementation of a deep learning model for detecting glaucoma using eye fundus images. The project utilizes a fine-tuned ResNet-18 model, trained on a custom dataset. The application also includes a Flask web interface for uploading images and obtaining predictions.
+
 
 ## Table of Contents
 
@@ -22,8 +26,6 @@ This repository contains a PyTorch implementation of a deep learning model for d
 - [Results](#results)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -178,19 +180,11 @@ python app.py
 
 Upload a test image and view the prediction.
 
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
 - The model architecture is based on ResNet-18 from the PyTorch library.
 - Data augmentation techniques were inspired by common practices in image classification tasks.
-- Special thanks to the open-source community for providing valuable resources and tools.
 
 To install the necessary dependencies, run:
 
@@ -198,4 +192,3 @@ To install the necessary dependencies, run:
 pip install -r requirements.txt
 ```
 
-Now the table of contents links should correctly redirect to their respective sections. If you have any other adjustments or need further assistance, let me know!
